@@ -1,0 +1,21 @@
+.SearchByWord {
+
+  .auth {
+    margin: 20px auto;
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  ul {
+    li {
+      &:hover {
+        background-color: burlywood;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
